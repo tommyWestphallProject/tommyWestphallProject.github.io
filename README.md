@@ -1,5 +1,11 @@
 # tommyWestphallProject
-Attempt to create a project that generates an interactive graph of nodes of all pieces of entertainment
+"The Tommy Westphall Universe is an internet meme that takes its premise from the final moments of the series finale of St. Elsewhere, which reveals that the entire show had taken place in the mind of an autistic boy. Television fans hypothesized that, because of television crossovers and spin-offs, a large fictional universe all takes place inside this boy’s imagination.
+
+For example, in an episode of St Elsewhere, the doctors visit the bar from Cheers and are served by Carla Tortelli (Rhea Perlman) who mentions giving birth in St. Eligius, the fictional hospital at the centre of the show. The doctors also appeared on Homicide: Life on the Street, where another character (Detective John Munch, played by Richard Belzer) has crossed over into at least ten other series alone.
+
+Intrepid fans cross-referenced television data bases and determined that 290 television shows were intertwined with St. Elsewhere, connected by fictional characters, places and corporations." [1]
+
+This is an attempt to generate an interactive graph of nodes of all pieces of entertainment involved with the theory.
 
 1) one time set up
     1) install node JS and npm to start
@@ -29,3 +35,6 @@ Attempt to create a project that generates an interactive graph of nodes of all 
     14) need to figure out how to host on github page
     15) need to figure out how to import from API from fandom: https://tommywestphall.fandom.com/wiki/List_of_television_series_in_the_Tommy_Westphall_Universe  see https://community.fandom.com/f/p/3198055608221698748 to fill the edges and nodes JSON 
     16) write a parser tp fix and make JSON reactFlow acceptable to create nodes and edges.
+
+    Source: 
+    [1] https://www.dave-dyment.com/addendum-to-the-tommy-westphall-universe-2
