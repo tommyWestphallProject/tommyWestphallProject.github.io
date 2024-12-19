@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect, useRef } from 'react';
-import { ReactFlow, Controls, Background,reactFlowInstance } from '@xyflow/react';
+import { ReactFlow, Controls, Background, ReactFlowInstance, BackgroundVariant } from '@xyflow/react';
 // import ReactFlow, { useNodesState, useEdgesState, ReactFlowInstance } from 'react-flow-renderer';
 // import { ReactFlowInstance } from 'react-flow-renderer';
 import '@xyflow/react/dist/style.css';
@@ -27,12 +27,13 @@ const onLoad = (reactFlowInstance) => {
 
 function Flow() {
   return (
-    <div className="Graph-playground-div">
+    <div className="graph-playground-div">
       <ReactFlow nodes={nodes}
       edges={edges}
+      colorMode={'dark'}
       onInit={(instance) => setTimeout(() => instance.fitView(), 0)}
       onLoad={(instance) => setTimeout(() => instance.fitView(), 0)}>
-        <Background />
+        <Background color="#FF0000" variant={BackgroundVariant.Dot} />
         <Controls />
       </ReactFlow>
     </div>
