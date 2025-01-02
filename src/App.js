@@ -6,17 +6,11 @@ import { ReactFlow, Controls, Background, ReactFlowInstance, BackgroundVariant }
 // import { ReactFlowInstance } from 'react-flow-renderer';
 import '@xyflow/react/dist/style.css';
 
-import CircleNode from "./CircleNode";
-const nodeTypes = {
-  circle: CircleNode
-};
-
 const edges = [{ id: '1-2', source: '1', target: '2' }];
 
 const nodes = [
   {
     id: '1', // required
-    type: 'circle',
     position: { x: 100, y: 100 }, // required
     data: { label: 'Hello' }, // required
   },{
